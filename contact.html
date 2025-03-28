@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Company London</title>
+        <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/body.css" />
+        <link rel="stylesheet" href="styles/contact.css" />
+        <!-- Styles -->
+
+    </head>
+    <body>
+        <header class="header-banner">
+            <div class="head-banner__div">
+                <img class ="head-banner__img" src="./images/logo.png">
+                <h1 class="header-banner__title">MY COMPANY <br> <span style="color: black;"> LONDON</span></h1>
+            </div>
+        </header>
+        <nav class="main-nav">
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="home.html">Home</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="services.html">Services</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <div class="main-content__row">
+                <div class="card">
+                    <form class="form">
+                        <h2 class="form__title">Contact Us</h2>
+                        <p class="form__txt">
+                            If you would like to get in touch with us please use the form below 
+                        </p>
+                        <div class="form__input">
+                            <label for="name">Name</label><br>
+                            <input class="form__input-box" type="text" name="name" placeholder="Your name" required/>
+                        </div>
+                        <div class="form__input">
+                            <label for="name">Email</label><br>
+                            <input class="form__input-box" type="text" name="email" placeholder="Your email" required/>
+                        </div>
+                        <div class="form__input">
+                            <label for="name">Message</label><br>
+                            <textarea name="message" placeholder="Your message" rows="4", cols="50" required></textarea>
+                        </div>
+                        <button class="form__button">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="main-content__row main-content__row--reversed">
+                <div class="card">
+                    <h2 class="card__title">Map</h2>
+                    <div class="card__content">
+                        <p class="card__txt">
+                            Sed vestibulum posuere dis nascetur, vitae consectetur. Penatibus habitant aliquam in nascetur cursus mattis interdum fusce tempus. Cras tellus pharetra etiam ipsum duis interdum luctus. Egestas nisl sociosqu suspendisse duis posuere fames nullam. Sed vestibulum posuere dis nascetur, vitae consectetur. 
+                        </p>
+                    </div>
+                    <iframe
+                    width="600"
+                    height="400"
+                    style="border:0"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"></iframe>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
